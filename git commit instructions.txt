@@ -1,8 +1,14 @@
+connect to github
+
 PS C:\01_desktop\GitHubRepository> git config --global user.name "jonasharvie"
 PS C:\01_desktop\GitHubRepository> git config --global user.name "jonasharvie@gmail.com"
 PS C:\01_desktop\GitHubRepository> git init
+
+
+add or update a file
 
 PS C:\01_desktop\GitHubRepository> git add "test_file.txt"
 
 PS C:\01_desktop\GitHubRepository> git branch -m main
 PS C:\01_desktop\GitHubRepository> git commit -m "type comment here"
+PS C:\01_desktop\GitHubRepository> git push -u origin main
