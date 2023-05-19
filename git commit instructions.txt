@@ -1,0 +1,8 @@
+PS C:\01_desktop\GitHubRepository> git config --global user.name "jonasharvie"
+PS C:\01_desktop\GitHubRepository> git config --global user.name "jonasharvie@gmail.com"
+PS C:\01_desktop\GitHubRepository> git init
+
+PS C:\01_desktop\GitHubRepository> git add "test_file.txt"
+
+PS C:\01_desktop\GitHubRepository> git branch -m main
+PS C:\01_desktop\GitHubRepository> git commit -m "type comment here"
